@@ -13,7 +13,7 @@ body {
   font-family: 'PT Sans', sans-serif;
   background-color: #252529;
   margin: 0;
-  color: #fff;
+  color: #f5f5f5;
   line-height: 1.6;
 }
 
@@ -64,7 +64,7 @@ section#entertainment {
 }
 
 #showcase .container {
-  margin-top: 25vh;
+  margin-top: 40vh;
 }
 
 #showcase h1 {
@@ -135,6 +135,7 @@ footer .footer-bottom {
 
 .btn-secondary {
   background: var(--secondary-color);
+  margin: 1rem;
 }
 
 .btn-secondary:hover {
@@ -279,6 +280,10 @@ nav a#openup {
 }
 
 @media screen and (max-width: 780px) {
+  .lead {
+    font-size: 1rem;
+  }
+
   .gift-cards {
     grid-template-columns: 1fr;
   }
